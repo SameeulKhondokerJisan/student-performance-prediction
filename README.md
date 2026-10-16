@@ -1,10 +1,16 @@
-# 🎓 Student Performance Prediction System
+# 🎓 Student Performance Analysis & Prediction
 
 ## 📌 Overview
 
 The Student Performance Prediction System is a machine learning-based web application designed to predict student academic performance using demographic, social, and educational factors.
 
 This project focuses on applying data analysis, preprocessing, feature engineering, and supervised machine learning techniques to identify patterns affecting student outcomes. The system helps demonstrate how predictive analytics can support academic monitoring and performance evaluation.
+
+---
+
+# 📊 Data
+
+`Notebook_Experiments/Data/stud.csv` — 1,000 students with `gender`, `race_ethnicity`, `parental_level_of_education`, `lunch`, `test_preparation_course` and `math_score` / `reading_score` / `writing_score`. The exploratory analysis lives in `Notebook_Experiments/Exploratory_Data_Analysis.ipynb`.
 
 ---
 
@@ -76,7 +82,8 @@ setup.py
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/jisan23051365/student-performance-prediction.git
+git clone https://github.com/SameeulKhondokerJisan/student-performance-prediction.git
+cd student-performance-prediction
 ```
 
 ---
@@ -167,3 +174,9 @@ This project demonstrates practical understanding of:
 # 📌 Conclusion
 
 The Student Performance Prediction System showcases the implementation of an end-to-end machine learning solution for educational analytics. It combines data science, backend development, and deployment concepts into a structured predictive application.
+
+---
+
+## 👤 Author
+
+**Sameeul Khondoker Jisan** — Data Analyst · [Portfolio](https://sameeulkhondokerjisan.github.io/my-portfolio/) · [LinkedIn](https://www.linkedin.com/in/mrkhondoker/)
